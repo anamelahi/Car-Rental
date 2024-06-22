@@ -1,0 +1,256 @@
+body{
+    font-family: Inter
+}
+
+/* NAVBAR */
+
+.brandName{
+    color:#FFFFFF ;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* width: 950px; */
+    margin-left: 90px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 200;
+    color: #B5B5B5;
+    padding-top:10px ;
+    padding-left: 90px;
+
+}
+
+li{
+    margin-right: 20px;
+}
+
+.loginbtn{
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 800px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* NAVBAR ENDS */
+
+/* HERO SECTION */
+.hero{
+    background-color: #E8E8E8;
+    margin-left: 90px;
+    height: 500px;
+    width: 1330px;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    margin-left: 200px;
+    padding-top: 100px;
+    font-weight: 900;
+}
+
+.rent{
+    margin-top: 5px;
+    margin-left: 200px;
+    background-color: #232737;
+    color: #FFFFFF;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.hero-car{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+/* HERO SECTION ENDS */
+
+/* TRENDING SECTION */
+.car-logo{
+    height: 500px;
+}
+
+.trending{
+    background-color: #E8E8E8;
+    margin-left: 90px;
+    height: 100%;
+    width: 1330px;
+}
+
+.trendtitle{
+    margin-top: 0px;
+    padding-top: 10px;
+    justify-self: center;
+    margin-left: 450px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.brand{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    border: #9E9E9E;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    justify-content: center;
+    
+}
+.brand:hover{
+    background-color: #9E9E9E;
+}
+
+.carbrand{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+.brand-div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.stepofbooking{
+    height: 30px;
+    width: 30px;
+    padding: auto;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    border-color: #f7f7f7;
+    border-width: 5px;
+    background-color: #e6e4e4;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h4{
+    font-size: 12px;
+}
+
+.trendstep{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.headsteps{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+
+/* .dashed-line{
+    height: 30px;
+    width: auto;
+    padding-left: 0px;
+    margin-top: 30px;
+
+} */
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    height: 0; /* Ensures it remains horizontal */
+    width: 150px; 
+    margin: 50px 0;
+    border-top: 3px dashed;
+    
+  }
+
+.pick-date{
+    background-color: #232737;
+}
+
+
+
+/* SERVICE SECTION */
+.service{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.service-div{
+    display: flex;
+    flex-direction: row; 
+    width: 950px;
+}
+
+.service-car{
+    height: 400px;
+}
+
+.best-service{
+    color: #A9A9A9;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+
+.service-heading-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-rule{
+    border: none;
+    border-top: 8px solid;
+    border-radius: 50px;
+    margin-top: 0px;
+    width: 55px;
+}
+
+.service-details{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.icon-div{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    border-color: #f7f7f7;
+    border-width: 5px;
+    background-color: #e6e4e4;
+    border-style: solid;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+}
